@@ -6,6 +6,8 @@ import pyautogui
 import random
 #啟動倒數
 
+def retreat(): #偵測對手先跑了
+   return 0
+    
 
-game_screen = imagesearch("photo\\fight.png")
-print(game_screen)
+print(retreat())
